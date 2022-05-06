@@ -1,11 +1,11 @@
-#Server for receiving metrics
+# Server for receiving metrics
 ___
-##Tech Stack:
+## Tech Stack:
 Python 3.9
 
 asyncio
 ___
-##Description
+## Description
 The server must be able to accept put and get commands from clients, parse them, and form a response according to the protocol.
 
 The put request requires that metrics be stored in data structures in process memory. On a get request, the server must return the data in the correct sequence. When working with a client, the server must support sessions, the connection with the client between requests must not be "broken".
