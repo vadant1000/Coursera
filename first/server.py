@@ -84,3 +84,5 @@ class ClientServerProtocol(asyncio.Protocol):
             return 'ok\n\n'
 
 
+if __name__ == "__main__":
+    run_server("127.0.0.1", 8888)
