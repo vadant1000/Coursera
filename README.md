@@ -1,10 +1,10 @@
 # Server for receiving metrics
-___
+
 ## Tech Stack:
 Python 3.9
 
 asyncio
-___
+
 ## Description
 The server must be able to accept put and get commands from clients, parse them, and form a response according to the protocol.
 
@@ -46,4 +46,4 @@ Escape character is '^]'.
 < test_key 12.0 1503319740
 < another_key 10.0 1503319739
 ```
-___
+
